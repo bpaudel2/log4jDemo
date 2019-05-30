@@ -1,0 +1,9 @@
+2019-05-29 18:16:51 DEBUG HelloExample:17 - This is debug : bikram
+2019-05-29 18:16:51 INFO  HelloExample:21 - This is info : bikram
+2019-05-29 18:16:51 WARN  HelloExample:24 - This is warn : bikram
+2019-05-29 18:16:51 ERROR HelloExample:25 - This is error : bikram
+2019-05-29 18:16:51 FATAL HelloExample:26 - This is fatal : bikram
+2019-05-29 18:29:52 ERROR class:14 - Sorry, something went wrong!
+java.lang.ArithmeticException: / by zero
+	at com.bikram.logging.HelloExample2.divide(HelloExample2.java:19)
+	at com.bikram.logging.HelloExample2.main(HelloExample2.java:12)
